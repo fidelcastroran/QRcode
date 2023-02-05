@@ -4,8 +4,6 @@ const spinner=document.querySelector('#loading');
 const qrcodeElement=document.querySelector('#qrcode');
 const btnSave=document.querySelector('#btn-save');
 
-
-
 function generateQRCode(e){
   e.preventDefault();
   const url=document.querySelector('#url').value;
